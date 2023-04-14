@@ -18,6 +18,42 @@
   color: #415167;
 }
 
+.second-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  font-weight: 900;
+  color: #415167;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.second-title_thin {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+}
+
+.third-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #415167;
+  font-weight: 700;
+}
+
+.choose__article-txt {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+  color: #151D28;
+  text-align: center;
+}
+
 /* =====BASE===== */
 /*Обнуление*/
 * {
@@ -148,6 +184,10 @@ a:visited {
 
 /* =====SECTIONS===== */
 /* =====HERO===== */
+section {
+  padding-top: 11.5rem;
+}
+
 .hero {
   width: 100%;
   margin: 0 auto;
@@ -193,4 +233,33 @@ a:visited {
   width: 33rem;
   padding-left: 5.6rem;
   background-color: #415167;
+}
+
+/* =====HERO-END===== */
+/* =====CHOOSE===== */
+.choose {
+  padding-bottom: 12.8rem;
+}
+.choose .choose__title {
+  margin-bottom: 6.4rem;
+}
+.choose .choose__articles {
+  display: flex;
+  gap: 6.8rem;
+}
+.choose .choose__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choose .choose__article-img {
+  width: 8rem;
+  margin-bottom: 1.2rem;
+}
+.choose .choose__article-title {
+  margin-bottom: 1.2rem;
+}
+/* ======CHOOSE-END===== */
+.owl-caruosel {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
