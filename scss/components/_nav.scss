@@ -1,0 +1,33 @@
+.nav {
+}
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.nav__cart {
+    display: inline-block;
+    margin-bottom: 7rem;
+}
+
+.nav__item {
+}
+.nav__link {
+    display: inline-block;
+    padding: 5px 0;
+    &::after {
+        content: '';
+        display: block;
+        background-color: $ACCENT_COLOR_DARKEN;
+        width: 0;
+        height: 2px;
+        transition: .2s;
+    }
+    &:hover {
+        color: #fff;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+

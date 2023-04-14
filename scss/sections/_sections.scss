@@ -5,65 +5,54 @@
     width: 100%;
     //border: 1px solid;
     margin: 0 auto;
-}
-
-.hero__content {
-    display: flex;
-    height: 100vh;
-}
-.hero__column,
-.hero__nav {
+    .hero__content {
+        display: flex;
+        height: 100vh;
+    }
+    .hero__column,
+    .hero__nav {
     padding-top: 7.2rem;
-}
-.hero__column_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 43.6rem;
-    background-color: $ACCENT_COLOR_LIGHTEN;    
-    padding-left: max(15px,calc((100% - 1130px) / 2));
-    padding-bottom: 6.4rem;
-}
-.hero__logo {
-    display: inline-block;
-}
-.hero__title {
-    position: relative;
-    z-index: 5;
-}
-.first__title {
-}
-
-
-.hero__column_2 {
-    width: calc(100% - 43.6rem);
-    position: relative;
-    background: url('../img/hero/hero__bg.png') center/cover no-repeat;    
-}
-.hero__nav {
-    position: absolute;
-    top:0;
-    right:0;
-    height: 100%;
-    width: 33rem;
-    padding-left: 5.6rem;
-    background-color: $PRIMARY_COLOR;
-}
-.nav {
-}
-
-.nav__list {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-.nav__cart {
-    display: inline-block;
-    margin-bottom: 7rem;
+    }
+    .hero__column_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 43.6rem;       
+        padding-left: max(15px,calc((100% - 1130px) / 2));
+        padding-bottom: 6.4rem;
+    }
+    .hero__logo {
+        display: inline-block;
+    }
+    .hero__title {
+        position: relative;
+        z-index: 5;
+    }
+    .accent {
+        color: #fff;
+        display: inline-block;
+        background-color: $ACCENT_COLOR_DARKEN;
+    }
+    
+    .hero__column_2 {
+        width: calc(100% - 43.6rem);
+        position: relative;
+        background: url('../img/hero/hero__bg.png') center/cover no-repeat;    
+    }
+    .hero__nav {
+        position: absolute;
+        top:0;
+        right:0;
+        height: 100%;
+        width: 33rem;
+        padding-left: 5.6rem;
+        background-color: $PRIMARY_COLOR;
+    }
+    
 }
 
-.nav__item {
-}
-.nav__link {
-}
+
+
+
+
 
