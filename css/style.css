@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* =====VARS===== */
+/* COLORS */
+/* =====TYPOGRAPHY===== */
+.nav {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 300;
+}
+
+.first__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.4rem;
+  line-height: 7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #415167;
+}
+
+/* =====BASE===== */
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+html {
+  font-size: 10px;
+}
+
+.page {
+  max-width: 1404px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a:link,
+a:visited {
+  color: #EDF0F5;
+}
+
+/* =====MIXINS===== */
+/*=====connect the fonts=====*/
+/* =====UTILITIES===== */
+/* =====SECTIONS===== */
+/* =====HERO===== */
+.hero {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero__content {
+  display: flex;
+  height: 100vh;
+}
+
+.hero__column,
+.hero__nav {
+  padding-top: 7.2rem;
+}
+
+.hero__column_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 43.6rem;
+  background-color: #F9F5E8;
+  padding-left: max(15px, (100% - 1130px) / 2);
+  padding-bottom: 6.4rem;
+}
+
+.hero__logo {
+  display: inline-block;
+}
+
+.hero__title {
+  position: relative;
+  z-index: 5;
+}
+
+.hero__column_2 {
+  width: calc(100% - 43.6rem);
+  position: relative;
+  background: url("../img/hero/hero__bg.png") center/cover no-repeat;
+}
+
+.hero__nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 33rem;
+  padding-left: 5.6rem;
+  background-color: #415167;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.nav__cart {
+  display: inline-block;
+  margin-bottom: 7rem;
+}/*# sourceMappingURL=style.css.map */

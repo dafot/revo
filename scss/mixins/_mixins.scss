@@ -1,0 +1,12 @@
+
+
+/*=====connect the fonts=====*/
+@mixin font( $font, $font-weight, $font-style) {
+  @font-face {
+    font-family: "$#{font}";
+    src: url("../fonts/#{font}.woff2"), url("../fonts/#{font}.woff");
+    font-weight: $font-weight;
+    font-display: swap;
+    font-style: $font-style;
+  }
+}
